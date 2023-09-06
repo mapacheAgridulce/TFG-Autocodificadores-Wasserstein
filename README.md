@@ -12,9 +12,8 @@ La estructura del repositorio es la siguiente:
 
 Para ejecutar los entrenamientos, es  suficiente con utilizar cualquier IDE o interprete para ejecutar las implementaciones.
 
-
-![GIF de reconstrucción de la red WAE-MMD](./gif_reconstruccion_mmd.jpg)
-
-![GIF de muestreo de la red WAE-MMD](./gif_muestreo_mmd.jpg)
-
-![GIF de reconstrucción de la red WAE-GAN](./gif_reconstruccion_gan.jpg)
+<image src="gif_reconstruccion_mmd.jpg" alt="GIF de reconstrucción de la red WAE-MMD">
+  
+<image src="gif_muestreo_mmd.jpg" alt="GIF de muestreo de la red WAE-MMD">
+  
+<image src="gif_reconstruccion_gan.jpg" alt="GIF de reconstrucción de la red WAE-GAN">
