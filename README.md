@@ -23,3 +23,7 @@ GIF de muestreo de la red WAE-MMD:
 GIF de reconstrucción de la red WAE-GAN:
 
 <image src="/gif_reconstruccion_gan.gif" alt="GIF de reconstrucción de la red WAE-GAN">
+
+GIF de muestreo de la red WAE-GAN:
+
+<image src="/gif_muestreo_gan.gif" alt="GIF de muestreo de la red WAE-GAN">

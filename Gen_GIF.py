@@ -34,3 +34,12 @@ for filename in filenames:
     images.append(imageio.imread(genpath + "Reconstruccion/" + filename))
     
 imageio.mimsave(genpath + "Reconstruccion/gif_reconstruccion.gif", images, duration = 0.5)
+
+filenames = os.listdir(genpath + "Muestreo")
+
+images = []
+
+for filename in filenames:
+    images.append(imageio.imread(genpath + "Muestreo/" + filename))
+    
+imageio.mimsave(genpath + "Muestreo/gif_muestreo.gif", images, duration = 0.5)

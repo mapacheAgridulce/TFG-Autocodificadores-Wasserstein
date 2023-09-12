@@ -269,10 +269,14 @@ for epoch in range(epochs):
         test_data = next(test_iter)
 
         z_real = encoder(Variable(test_data[0]).cuda())
-        reconst = decoder(torch.randn_like(z_real)).cpu().view(batch_size, 1, 28, 28)
+        reconst = decoder(z_real).cpu().view(batch_size, 1, 28, 28)
+        sample = decoder(torch.randn_like(z_real)).cpu().view(batch_size, 1, 28, 28)
 
         if not os.path.isdir('./data/reconst_images'):
             os.makedirs('data/reconst_images')
+            os.makedirs('data/reconst_images/Reconstruccion')
+            os.makedirs('data/reconst_images/Muestreo')
 
         save_image(test_data[0].view(batch_size, 1, 28, 28), './data/reconst_images/wae_gan_input.png')
-        save_image(reconst.data, './data/reconst_images/wae_gan_images_%d.png' % (epoch + 1))
+        save_image(reconst.data, './data/reconst_images/Reconstruccion/wae_gan_images_%d.png' % (epoch + 1))
+        save_image(sample.data, './data/reconst_images/Muestreo/wae_gan_samples_%d.png' % (epoch + 1))
