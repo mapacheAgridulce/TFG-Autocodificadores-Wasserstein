@@ -1,7 +1,7 @@
 # TFG-Autocodificadores-Wasserstein
-Código del Trabajo de Fin de Grado: ___
+Código del Trabajo de Fin de Grado: Métodos generativos adversariales basados en transporte óptimo.
 
-En este repositorio de GitHub se dispone del documento memoria del Trabajo de Fin de Grado: ___, realizado por Manuel Martínez Martínez, estudiante de la Universidad de Valladolid.
+En este repositorio de GitHub se dispone del documento memoria del Trabajo de Fin de Grado: Métodos generativos adversariales basados en transporte óptimo, realizado por Manuel Martínez Martínez, estudiante de la Universidad de Valladolid.
 
 La estructura del repositorio es la siguiente: 
 - El documento pdf es la memoria del trabajo.
