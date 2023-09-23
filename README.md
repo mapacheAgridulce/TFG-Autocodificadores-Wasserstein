@@ -8,7 +8,7 @@ La estructura del repositorio es la siguiente:
 - La carpeta WAE-GAN contiene el dataset MNIST, utilizado para entrenar la red WAE-GAN, además de la implementación de la red.
 - La carpeta WAE-MMD contiene el dataset MNIST, utilizado para entrenar la red WAE-MMD, además de la implementación de la red.
 - El archivo Gen_GIF.py es el ccódigo python realizado para generar los gif de evolución de los resultados.
-- Los tres gif muestran la evolución de la reconstrucción y el muestreo.
+- Los cuatro gif muestran la evolución de la reconstrucción y el muestreo.
 
 Para ejecutar los entrenamientos, es  suficiente con utilizar cualquier IDE o interprete para ejecutar las implementaciones.
 
